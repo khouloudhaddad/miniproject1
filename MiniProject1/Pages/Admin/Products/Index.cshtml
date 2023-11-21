@@ -1,0 +1,49 @@
+﻿@page
+@model IndexModel
+@{
+}
+
+
+<div class="row my-4">
+    <div class="col"><h2>List of products</h2></div>
+    <div class="col text-end">
+        <a class="btn btn-primary" href="/Admin/Products/Create">New Product</a>
+    </div>
+</div>
+
+<div class="row table-responsive">
+    <div class="col-12">
+        <table class="table table-hover align-middle">
+                <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Brand</th>
+                <th>Category</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Created on</th>
+                <th>Action</th>
+                </thead>
+                <tbody>
+                    @foreach (var product in Model.Products)
+                    {
+                        <tr>
+                            <td>@product.Id</td>
+                            <td>@product.Name</td>
+                            <td>@product.Brand</td>
+                            <td>@product.Category</td>
+                            <td>$@product.Price</td>
+                            <td><img src="/products/@product.ImageFileName" class="img-thumbnail" width="75px" /></td>
+                            <td>@product.CreatedAt.ToString("MM/dd/yyyy")</td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <a class="btn btn-success btn-sm me-3" href="/Admin/Products/Edit?id=@product.Id">Edit</a>
+                                    <a class="btn btn-danger btn-sm me-3" href="/Admin/Products/Delete?id=@product.Id">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+    </div>
+</div>
