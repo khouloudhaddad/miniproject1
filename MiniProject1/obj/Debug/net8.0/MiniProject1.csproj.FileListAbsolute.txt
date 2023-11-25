@@ -134,3 +134,4 @@ C:\Users\I-Repair Shop\Desktop\c#\MiniProject1\MiniProject1\obj\Debug\net8.0\ref
 C:\Users\I-Repair Shop\Desktop\c#\MiniProject1\MiniProject1\obj\Debug\net8.0\MiniProject1.pdb
 C:\Users\I-Repair Shop\Desktop\c#\MiniProject1\MiniProject1\obj\Debug\net8.0\MiniProject1.genruntimeconfig.cache
 C:\Users\I-Repair Shop\Desktop\c#\MiniProject1\MiniProject1\obj\Debug\net8.0\ref\MiniProject1.dll
+C:\Users\I-Repair Shop\Desktop\c#\MiniProject1\MiniProject1\obj\Debug\net8.0\MiniProject1.sourcelink.json
