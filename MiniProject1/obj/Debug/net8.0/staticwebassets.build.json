@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RovsP0HsGDjXS4JXFj2BpTVpTSvkGX3mxaXurv3iYhA=",
+  "Hash": "IinqFYhc0R/K6w8ZLs1WPqyxOUAmHX9jzxHzKS4CXb8=",
   "Source": "MiniProject1",
   "BasePath": "_content/MiniProject1",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\products\\20231125165455928.webp"
+    },
+    {
+      "Identity": "C:\\Users\\I-Repair Shop\\Desktop\\c#\\MiniProject1\\MiniProject1\\wwwroot\\products\\20231126171458738.jpg",
+      "SourceId": "MiniProject1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\I-Repair Shop\\Desktop\\c#\\MiniProject1\\MiniProject1\\wwwroot\\",
+      "BasePath": "_content/MiniProject1",
+      "RelativePath": "products/20231126171458738.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\products\\20231126171458738.jpg"
     },
     {
       "Identity": "C:\\Users\\I-Repair Shop\\Desktop\\c#\\MiniProject1\\MiniProject1\\wwwroot\\products\\pavillon.webp",
